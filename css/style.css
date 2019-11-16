@@ -1,0 +1,110 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+h1 {	
+	text-align: center;
+	color: black;
+	font-size: 18pt;
+	margin-top: 0.7%; 
+}		
+.background {
+	background-color: #22B573;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #006837;
+	/*margin: 10px 40px 40px 40px;*/
+	margin: 0.7% 3% 5% 3%;
+	/*padding: 45px 70px 80px 70px;*/
+	padding: 2.5% 5% 2% 5%;
+}
+
+.logo {
+	float: right;
+	width: 15%;
+	vertical-align: top;
+	height: 19%;
+/*	margin-bottom: 2%;*/
+}
+.header-nav {
+	float: right;
+	width: 69%;
+	display: inline-block;
+	vertical-align: top;
+	/*margin-right: 2.5%;*/
+}
+.header-li {
+	display: inline-block;
+	padding-left: 3%;
+}
+
+.header-li a {
+	display: inline-block;
+	color: white;
+	font-size: 28pt;
+}
+.clear {
+	clear: both;
+}
+
+section {
+	margin: 40px auto;
+}
+.box {
+	background-color: #FCEE21;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 1.25% 1.5%;
+	/*max-width: 600px;*/
+	width: 45%;
+	height: 50%;
+	
+}
+.box p {
+	/*display: inline-block;*/
+	font-size: 12pt;
+}
+
+.left {
+	float: left;
+	vertical-align: middle;
+	margin-right: 1%;
+}
+.left-top {
+	vertical-align: top;
+	width: 67%;
+	float: left;
+}
+.img-left {
+	vertical-align: top;
+	width: 30%;
+	float: right;
+}
+.left-bottom {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+
+.rigth {
+	float: right;
+	margin-left: 1%;
+	vertical-align: middle;
+}
+.rigth-top {
+	vertical-align: top;
+	/*width: 67%;*/
+	/*float: right;
+*/
+}
+.img-rigth {
+	vertical-align: top;
+	width: 30%;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 15px;
+}
+.rigth-bottom {
+	margin-top: 20px;
+	display: inline-block;
+}
